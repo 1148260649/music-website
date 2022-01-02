@@ -1,6 +1,7 @@
 package com.example.yin.dao;
 
 import com.example.yin.domain.Admin;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -17,5 +18,5 @@ public interface AdminMapper {
 
     int updateByPrimaryKey(Admin record);
 
-    int verifyPassword(String username, String password);
+    int verifyPassword(@Param("name") String username, @Param("password") String password);
 }

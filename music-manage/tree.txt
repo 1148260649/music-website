@@ -1,0 +1,32 @@
+目录结构
+.
+├── build
+├── config
+├── node_modules
+├── index.html
+├── package.json
+├── src
+│   ├── App.vue
+│   ├── main.js
+│   ├── api
+│   ├── assets
+│   ├── mixins
+│   ├── components
+│   │   ├── Header.vue
+│   │   ├── Home.vue
+│   │   ├── Sidebar.vue
+│   │   └── SongAudio.vue
+│   ├── pages
+│   │   ├── CollectPage.vue
+│   │   ├── CommentPage.vue
+│   │   ├── ConsumerPage.vue
+│   │   ├── InfoPage.vue
+│   │   ├── ListSongPage.vue
+│   │   ├── Login.vue
+│   │   ├── SingerPage.vue
+│   │   ├── SongListPage.vue
+│   │   └── SongPage.vue
+│   ├── router
+│   └── store
+├── static
+└── test

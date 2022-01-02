@@ -121,6 +121,17 @@ git clone https://github.com/Yin-Hongwei/music-website.git
 ![](https://tva1.sinaimg.cn/large/008i3skNly1gske6w6kk8j33aq0u0wn2.jpg)
 
 #### 4、启动项目
+```js
+node版本为16.x时需要修改
+node v16.13.1
+npm v8.3.0
+首先执行卸载
+npm uninstall node-sass
+执行完卸载后
+npm i -D sass
+设置python路径
+npm config set python ‘Python路径’
+```
 
 - **启动管理端**：进入 music-server 文件夹，运行下面命令启动服务器
 
